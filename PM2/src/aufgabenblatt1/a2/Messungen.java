@@ -19,4 +19,8 @@ public class Messungen {
 	public LocalDateTime getZeitstempel() {
 		return zeitstempel;
 	}
+	@Override
+	public String toString() {
+		return "" + wert;
+	}
 }
