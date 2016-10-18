@@ -62,6 +62,7 @@ public class ArrayListe<T extends Comparable<T>> {
 		for (int i = 0; i < anzahlElemente; i++) {
 			if (elemente[i].equals(zuentfernen)) {
 				entferneElementAnIndex(i);
+				i--;
 			}
 		}
 	}
